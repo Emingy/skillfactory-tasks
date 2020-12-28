@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Task 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='script.js'></script>
+    <style>
+        table, td {
+            border:1px solid black;
+            margin: 0;
+        }
+        table{
+            border-collapse:collapse;
+            border-spacing:0;
+        }
+    </style>
+</head>
+<body>
+    <select id="select" onchange="changeSelect(document.getElementById('select').value,document.getElementById('alert'),document.getElementById('button'))">
+        <option value="0" selected>Выберите год</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+    </select>
+    <p id="alert">Выберите, пожалуйста, год</p>
+    <button id="button" disabled onclick="Json(document.getElementById('select').value,document.getElementById('alert'),document.getElementById('table'))">Загрузить отчет</button>
+    <table id="table">
+        <tr>
+            <td>1 кв.</td>
+            <td>2 кв.</td>
+            <td>3 кв.</td>
+            <td>4 кв.</td>
+        </tr>
+    </table>
+</body>
+</html>
