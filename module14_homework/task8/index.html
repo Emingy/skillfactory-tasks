@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Task 8</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='script.js'></script>
+</head>
+<body>
+	<p>Номер страницы</p>
+	<input type="text" id="input1" name="input1">
+	<p>Лимит</p>
+	<input type="text" id="input2" name="input2">
+	<button onclick="request(document.getElementById('input1').value,document.getElementById('input2').value,document.getElementById('list'),document.getElementById('alert'))">Запрос</button>
+	<p id="alert"></p>
+	<div id="list">
+	</div>
+</body>
+</html>
