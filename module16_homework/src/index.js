@@ -1,3 +1,3 @@
-export function multiply(a, b) {
-    return a * b;
+export function far(a) {
+    return a * 9 / 5 + 32;
 }
