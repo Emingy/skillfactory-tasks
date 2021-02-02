@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    width: 1440px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.ma-0{
+    margin: 0 !important;
+}
+header{
+    width: 1440px;
+}
+main{
+    width: 1440px;
+}
+.h-logo{
+    margin: 31px 0px 0px 40px;
+}
+nav{
+    margin: 35px 0px 0px 806px;
+}
+nav>a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+.h-signin{
+    display: flex;
+    margin: 23px 0px 0px 10px;    
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;    
+    width: 106px;
+    height: 43px;
+    border: 1px solid rgba(27, 27, 27, 0.4);
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B1B1B;
+}
+.m-about{
+    margin-top: 80px;
+    width: 1440px;
+}
+.m-about-picture{
+    display: block;
+    margin: auto;
+    width: 397px;
+    height: 300px;
+}
+.m-about>h1{
+    text-align: center;
+    margin-top: 61px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+}
+.m-about>p{
+    width: 925px;
+    height: 105px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 147.3%;
+    text-align: center;
+}
+.m-contact{
+    display: inline-block;
+    margin-top: 80px;
+    width: 1440px;
+    height: 341px;
+}
+.m-contact>h2{
+    margin-top: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: black;
+}
+.m-contact-data{
+    margin:auto;
+    margin-top: 43px;
+    width: 666px;
+}
+.m-contact-data-email{
+    width: 264px;
+    height: 56px;
+    text-align: center;
+}
+.m-contact-data-email__head{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+    color: #4F4F4F;
+}
+.m-contact-data-email__email{
+    margin-top: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+    text-align: center;
+}
+.m-contact-data-email__email>a{
+    text-decoration: none;
+    color: black;
+}
+.m-contact-rectangle{
+    margin-left: 69px;
+}
+.m-contact-data-number{
+    width: 264px;
+    height: 56px;
+    margin-left: 68px;
+}
+.m-contact-data-number__head{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;    
+    text-align: center;    
+    color: #4F4F4F;
+}
+.m-contact-data-number__number{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+    text-align: center;
+}
+.m-contact-data-number__number>a{
+    text-decoration: none;
+    color: black;
+}
+.m-team{
+    width: 980px;
+    height: 695px;
+    margin: auto;
+    margin-top: 80px;
+}
+.m-team>h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #1B1B1B;
+}
+.m-team>div{
+    margin-top: 55px;
+    display: flex;
+}
+.m-team-humans-group__one{
+    width: 980px;
+    margin: auto;
+}
+.m-team-humans-group__two{
+    width: 458px;
+    margin: auto;
+}
+.m-team>div>div{
+    margin: auto;
+    width: 196px;
+    height: 261px;
+}
+.human-image{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+.human-name{
+    margin-top: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147.3%;    
+    text-align: center;
+    color: #000000;
+}
+.human-position{
+    margin-top: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;    
+    text-align: center;
+    color: #828282;
+}
+footer{
+    display: flex;
+    width: 1440px;
+    height: 124px;
+    background: #3F3D56;
+    margin-top: 120px;
+}
+.f-copyright{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin: 53px 0px 0px 40px;
+}
+.f-social{
+    margin: 46px 0px 0px 1084px ;
+}
+.f-social-image{
+    width: 32px;
+    height: 32px;
+    margin-left: 14px;
+}
