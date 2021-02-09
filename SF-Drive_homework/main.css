@@ -35,6 +35,9 @@ nav>a{
     color: black;
     margin-right: 30px;
 }
+nav>a:hover{
+    color: #61A199;
+}
 .h-signin{
     display: flex;
     margin: 23px 0px 0px 10px;    
@@ -53,6 +56,11 @@ nav>a{
     font-size: 16px;
     line-height: 19px;
     color: #1B1B1B;
+    cursor: pointer;
+}
+.h-signin:hover{
+    border-color: #61A199;
+    color: #61A199;
 }
 .m-about{
     margin-top: 80px;
@@ -90,6 +98,7 @@ nav>a{
     margin-top: 80px;
     width: 1440px;
     height: 341px;
+    background: #F7F9FB;
 }
 .m-contact>h2{
     margin-top: 80px;
@@ -132,6 +141,9 @@ nav>a{
     text-decoration: none;
     color: black;
 }
+.m-contact-data-email__email:hover>a{
+    color: #61A199;
+}
 .m-contact-rectangle{
     margin-left: 69px;
 }
@@ -160,6 +172,9 @@ nav>a{
 .m-contact-data-number__number>a{
     text-decoration: none;
     color: black;
+}
+.m-contact-data-number__number:hover>a{
+    color: #61A199;
 }
 .m-team{
     width: 980px;
@@ -240,7 +255,22 @@ footer{
     margin: 46px 0px 0px 1084px ;
 }
 .f-social-image{
+    display: inline-block;
     width: 32px;
     height: 32px;
     margin-left: 14px;
+}
+.f-social-image>svg{
+    width: 26.67px;
+    height: 26.67px;
+    margin: 8.33%;
+}
+.f-social-image-vk:hover path{
+    fill: #61A199;
+}
+.f-social-image-inst:hover path{
+    fill: #61A199;
+}
+.f-social-image-facebook:hover path{
+    fill: #61A199;
 }
