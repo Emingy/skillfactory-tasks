@@ -3,19 +3,27 @@
     margin: 0;
     border: 0;
 }
+.flex{
+    display: flex;
+}
+.ma-0{
+    margin: 0 !important;
+}
+.hide{
+    display: none;
+}
 @media screen and (min-width: 1440px){
     body{
         width: 1440px;
         margin: auto;
     }
-    .flex{
-        display: flex;
-    }
-    .ma-0{
-        margin: 0 !important;
-    }
     header{
+        z-index: 999;    
+        top: 0;
+        height: 90px;
         width: 1440px;
+        position: fixed;
+        background: rgba(255, 255, 255, 0.95);
     }
     main{
         width: 1440px;
@@ -66,8 +74,203 @@
         border-color: #61A199;
         color: #61A199;
     }
+    footer{
+        display: flex;
+        width: 1440px;
+        height: 124px;
+        background: #3F3D56;
+        margin-top: 120px;
+    }
+    .f-copyright{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin: 53px 0px 0px 40px;
+    }
+    .f-social{
+        margin: 46px 0px 0px 1084px ;
+    }
+    .f-social-image{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-left: 14px;
+    }
+    .f-social-image>svg{
+        width: 26.67px;
+        height: 26.67px;
+        margin: 8.33%;
+    }
+    .f-social-image-vk:hover path{
+        fill: #61A199;
+    }
+    .f-social-image-inst:hover path{
+        fill: #61A199;
+    }
+    .f-social-image-facebook:hover path{
+        fill: #61A199;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 1440px){
+    body{
+        width: 375px;
+        margin: auto;
+    }
+    header{
+        z-index: 999;    
+        top: 0;
+        height: 68px;
+        width: 375px;
+        position: fixed;
+        background: rgba(255, 255, 255, 0.95);
+    }
+    main{
+        width: 375px;
+    }
+    .h-logo{
+        margin: 20px 0px 0px 20px;
+        width: 115px;
+        height: 28px;
+    }
+    #menu__toggle {
+        opacity: 0;
+    }
+    .menu__btn {
+        transition: 0.5s;
+        display: flex;
+        position: fixed;
+        top: 20px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        z-index: 1;
+        background-image: url('img/menu 1.svg');
+        background-position: top left;
+    }
+    .menu_box{
+        overflow: hidden;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 60px;
+        padding-top: 0px;
+        left: 0;
+        height: 0px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.95);
+    }
+    .menu_box>a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 147.3%;    
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+    .menu_box>a:hover{
+        color: #61A199;
+    }
+    .menu_box>button{
+        margin: auto;
+        margin-top: 198px;
+        width: 335px;
+        height: 43px;
+        background: none;
+        border: 1px solid rgba(27, 27, 27, 0.4);
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1B1B1B;
+    }
+    .menu_box>button:hover{
+        border-color: #61A199;
+        color: #61A199;
+    }
+    .menu_box>span{
+        width: 335px;
+        height: 1px;
+        background: #DCE0ED;
+        margin: auto;
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    #menu__toggle:checked ~ .menu__btn {
+        width: 24px;
+        height: 24px;
+        background-image: url('img/close 1.svg');
+    }
+    #menu__toggle:checked ~ .menu_box{
+        padding-top: 200px;
+        height: 100%;
+    }
+    .h-menu{
+        margin: 22px 0px 0px 196px;
+        width: 24px;
+        height: 24px;
+    }
+    nav{
+        display: none;
+    }
+    .h-signin{
+        display: none;
+    }
+    footer{
+        display: flex;
+        width: 375px;
+        height: 125px;
+        background: #3F3D56;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .f-copyright{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin: 30px 0px 0px 20px;
+    }
+    .f-social{
+        margin: 14px 0px 0px 20px ;
+    }
+    .f-social-image{
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-left: 14px;
+    }
+    .f-social-image>svg{
+        width: 26.67px;
+        height: 26.67px;
+        margin: 8.33%;
+    }
+    .f-social-image-vk:hover path{
+        fill: #61A199;
+    }
+    .f-social-image-inst:hover path{
+        fill: #61A199;
+    }
+    .f-social-image-facebook:hover path{
+        fill: #61A199;
+    }
+}
+/* ABOUT */
+@media screen and (min-width: 1440px){
     .m-about{
-        margin-top: 80px;
+        margin-top: 170px;
         width: 1440px;
     }
     .m-about-picture{
@@ -242,82 +445,10 @@
         text-align: center;
         color: #828282;
     }
-    footer{
-        display: flex;
-        width: 1440px;
-        height: 124px;
-        background: #3F3D56;
-        margin-top: 120px;
-    }
-    .f-copyright{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 19px;
-        color: #FFFFFF;
-        opacity: 0.4;
-        margin: 53px 0px 0px 40px;
-    }
-    .f-social{
-        margin: 46px 0px 0px 1084px ;
-    }
-    .f-social-image{
-        display: inline-block;
-        width: 32px;
-        height: 32px;
-        margin-left: 14px;
-    }
-    .f-social-image>svg{
-        width: 26.67px;
-        height: 26.67px;
-        margin: 8.33%;
-    }
-    .f-social-image-vk:hover path{
-        fill: #61A199;
-    }
-    .f-social-image-inst:hover path{
-        fill: #61A199;
-    }
-    .f-social-image-facebook:hover path{
-        fill: #61A199;
-    }
 }
 @media screen and (min-width: 375px) and (max-width: 1440px){
-    body{
-        width: 375px;
-        margin: auto;
-    }
-    .flex{
-        display: flex;
-    }
-    .ma-0{
-        margin: 0 !important;
-    }
-    header{
-        width: 375px;
-    }
-    main{
-        width: 375px;
-    }
-    .h-logo{
-        margin: 20px 0px 0px 20px;
-        width: 115px;
-        height: 28px;
-    }
-    .h-menu{
-        margin: 22px 0px 0px 196px;
-        width: 24px;
-        height: 24px;
-    }
-    nav{
-        display: none;
-    }
-    .h-signin{
-        display: none;
-    }
     .m-about{
-        margin-top: 60px;
+        margin-top: 108px;
         width: 375px;
     }
     .m-about-picture{
@@ -482,44 +613,198 @@
         text-align: center;
         color: #828282;
     }
-    footer{
-        display: flex;
-        width: 375px;
-        height: 125px;
-        background: #3F3D56;
-        flex-direction: column;
+}
+
+/* FAQ */
+@media screen and (min-width: 1440px){
+    .m-faq-head__image{
+        display: block;
+        width: 360px;
+        height: 300px;
+        margin: auto;
+        margin-top: 170px;
     }
-    .f-copyright{
+    .m-faq>h1{
+        margin-top: 61px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 120%;        
+        text-align: center;
+        color: #1B1B1B;
+    }
+    .m-faq>p{
+        margin-top: 30px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 147.3%;        
+        text-align: center;
+        color: #1B1B1B;
+    }
+    .m-faq-questions{
+        margin-top: 60px;
+    }
+    .m-faq-questions>div{
+        margin: auto;
+        margin-top: 14px;
+        width: 1026px;
+    }
+    .m-faq-question-hide:checked ~ .m-faq-question-description{
+        max-height: 700px;
+    }
+    .m-faq-question-hide:checked + label{
+        background-color:rgba(97, 161, 153, 0.15) !important;
+    }
+    .m-faq-question-hide:checked + label>svg{
+        transform: rotate(180deg);
+    }
+    .m-faq-question-hide:checked + label>p{
+        color: #61A199 !important;
+    }
+    .m-faq-question-head{
+        cursor: pointer;
+        margin: auto;
+        width: 1026px;
+        background-color:#F7F7F8;
+        border-radius: 6px;
+    }
+    .m-faq-question-head:hover{
+        background-color:rgba(97, 161, 153, 0.1);
+    }
+    .m-faq-questions>div>label{
+        display: flex;
+    }
+    .m-faq-questions>div>label>p{
+        margin: 19px 0px 18px 22px;
+        max-width: 800px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 147.3%;        
+        color: #1B1B1B;
+    }
+    .m-faq-questions>div>label>svg{
+        align-self: center;
+        margin-right: 28px;
+        margin-left: auto;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .m-faq-question-description{
+        overflow: hidden;
+        -webkit-transition: max-height .4s;
+        transition: max-height .4s;
+        max-height: 0;
+    }
+    .m-faq-question-description>p{
+        width: 784px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 147.3%;
+        color: #1B1B1B;
+        margin: 20px 0px 26px 22px ;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 1440px){
+    .m-faq-head__image{
+        display: block;
+        width: 242px;
+        height: 202px;
+        margin: auto;
+        margin-top: 108px;
+    }
+    .m-faq>h1{
+        margin-top: 40px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 120%;        
+        text-align: center;
+        color: #1B1B1B;
+    }
+    .m-faq>p{
+        margin-top: 10px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        line-height: 19px;
-        color: #FFFFFF;
-        opacity: 0.4;
-        margin: 30px 0px 0px 20px;
+        line-height: 147.3%;        
+        text-align: center;
+        color: #1B1B1B;
     }
-    .f-social{
-        margin: 14px 0px 0px 20px ;
+    .m-faq-questions{
+        margin-top: 30px;
     }
-    .f-social-image{
-        display: inline-block;
-        width: 32px;
-        height: 32px;
-        margin-left: 14px;
+    .m-faq-questions>div{
+        margin: auto;
+        margin-top: 15px;
+        width: 335px;
     }
-    .f-social-image>svg{
-        width: 26.67px;
-        height: 26.67px;
-        margin: 8.33%;
+    .m-faq-question-hide:checked ~ .m-faq-question-description{
+        max-height: 700px;
     }
-    .f-social-image-vk:hover path{
-        fill: #61A199;
+    .m-faq-question-hide:checked + label{
+        background-color:rgba(97, 161, 153, 0.15) !important;
     }
-    .f-social-image-inst:hover path{
-        fill: #61A199;
+    .m-faq-question-hide:checked + label>svg{
+        transform: rotate(180deg);
     }
-    .f-social-image-facebook:hover path{
-        fill: #61A199;
+    .m-faq-question-hide:checked + label>p{
+        color: #61A199 !important;
+    }
+    .m-faq-question-head{
+        cursor: pointer;
+        margin: auto;
+        width: 335px;
+        background-color:#F7F7F8;
+        border-radius: 6px;
+    }
+    .m-faq-question-head:hover{
+        background-color:rgba(97, 161, 153, 0.1);
+    }
+    .m-faq-questions>div>label{
+        display: flex;
+    }
+    .m-faq-questions>div>label>p{
+        margin: 14px 0px 15px 20px;
+        max-width: 254px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 147.3%;        
+        color: #1B1B1B;
+    }
+    .m-faq-questions>div>label>svg{
+        align-self: center;
+        margin-right: 16.5px;
+        margin-left: auto;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .m-faq-question-description{
+        overflow: hidden;
+        -webkit-transition: max-height .4s;
+        transition: max-height .4s;
+        max-height: 0;
+    }
+    .m-faq-question-description>p{
+        width: 295px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 147.3%;
+        color: #1B1B1B;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 39px;
     }
 }
