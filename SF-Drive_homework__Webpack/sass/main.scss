@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.flex{
+    display: flex;
+}
+.ma-0{
+    margin: 0 !important;
+}
+.hide{
+    display: none;
+}
+
+@import 'includes';
+@import 'About';
+@import 'Faq';

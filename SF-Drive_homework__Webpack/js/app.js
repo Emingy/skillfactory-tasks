@@ -1,0 +1,5 @@
+import '../sass/About.scss'
+import '../sass/Faq.scss'
+import '../sass/includes.scss'
+import '../sass/main.scss'
+import '../sass/variables.scss'
