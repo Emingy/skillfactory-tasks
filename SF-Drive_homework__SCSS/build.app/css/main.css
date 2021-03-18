@@ -488,16 +488,16 @@
       text-align: center;
       color: #1B1B1B; }
     .m-team div {
+      margin: auto;
       margin-top: 30px;
+      width: 335px;
       display: grid;
       grid-template-columns: repeat(auto-fit, 167px);
       grid-template-rows: auto;
-      grid-row-gap: 30px;
-      margin-left: 20px;
-      margin-right: 20px; }
+      grid-row-gap: 30px; }
       .m-team div div {
         display: block;
-        min-height: 167px; }
+        width: 167px; }
         .m-team div div .human-image {
           display: block;
           width: 80px;
