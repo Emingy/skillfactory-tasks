@@ -1,0 +1,115 @@
+.portal{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.portal .portal-background{
+    width: 100%;
+    height: 100%;
+    background: #1B1B1B;
+    opacity: 0.35;
+    z-index: 0;
+}
+.portal .dknQTa{
+    z-index: 999;
+}
+.modal{
+    margin: 116px auto;
+    left: 0;
+    right: 0;
+    width: 504px;
+    height: 668px;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.modal .modal-close{
+    width: 14px;
+    height: 14px;
+    margin: 25px 0 0 465px;
+    cursor: pointer;
+}
+.modal .modal-pic{
+    margin: 22px auto 0;
+    width: 302px;
+    height: 181px;
+    display: block;
+}
+.modal h2 {
+    margin-top: 38px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #1B1B1B;
+}
+.modal .modal-input-login{
+    width: 350px;
+    height: 44px;
+    padding: 14px 12px 14px 12px;
+    margin: 40px auto 0;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.modal .modal-input-pass{
+    width: 350px;
+    height: 44px;
+    padding: 14px 12px 14px 12px;
+    margin: 20px auto 0;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.modal input:focus{
+    outline: #61A199 auto 1px;
+}
+.modal button{
+    width: 126px;
+    height: 51px;
+    margin: 30px auto 0;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.modal button.active{
+    cursor: pointer;
+    background: #61A199;
+    color: #FFFFFF;
+}
+.modal button.disable{
+    cursor: unset;
+    background: #E5E7F0;
+    color: #B4B5BD;
+    outline: none;
+}
+.modal span{
+    width: 350px;
+    height: 1px;
+    margin: 40px auto 0;
+    background: #DEDBF1;
+}
+.modal a{
+    margin: 30px auto 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #508E87;
+    text-decoration: none;
+}

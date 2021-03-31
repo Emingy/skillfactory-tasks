@@ -1,8 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-import logo from '../img/Logo.svg'
+import SignUp from './signIn'
+import logo from '../img/Logo.svg';
 
 function Header() {
+    const updateData = (value) => {
+        setShow(value)
+        console.log(value)
+    }
+    const [showModal, setShow] = useState(false);
     let srcAboutPage = '../About';
     let srcFaqPage = '../Faq'
     return (
@@ -27,7 +33,8 @@ function Header() {
             <a href="#">Условия</a>
             <a className={(window.location.pathname!='/' && srcFaqPage.indexOf(window.location.pathname)!==-1) ? 'active' : 'disable'} href={srcFaqPage}>Частые вопросы</a>
         </nav>
-        <button className="h-signin">Войти</button>
+        <button className="h-signin" onClick={()=> setShow(true)}>Войти</button>
+        {showModal && <SignUp updateData={updateData}></SignUp>}
     </header>
     );
 }
