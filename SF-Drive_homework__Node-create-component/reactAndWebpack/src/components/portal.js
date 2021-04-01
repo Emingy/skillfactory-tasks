@@ -10,6 +10,7 @@ class Portal extends Component {
         this.el.appendChild(this.back)
         this.el.classList.add('portal');
         this.back.classList.add('portal-background')
+        this.back.style.zIndex='1'
         document.body.style.overflowY = "hidden";
     }
 

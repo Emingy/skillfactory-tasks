@@ -1,7 +1,7 @@
 import React, { Component, useState} from 'react';
 import ReactDOM from 'react-dom';
-import styled, { keyframes } from 'styled-components';
-import { fadeIn } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+import { fadeInDownBig } from 'react-animations';
 import Portal from './portal';
 
 
@@ -10,13 +10,18 @@ import SignInPic from '../img/undraw_sign_in.svg';
 
 import '../styles/signIn.css';
 
-const FadeIn = styled.div`animation: 2s ${keyframes`${fadeIn}`} `;
+const styles = {
+    fadeInDownBig: {
+      animation: 'x 0.8s',
+      animationName: Radium.keyframes(fadeInDownBig, 'fadeInDownBig')
+    }
+}
 
 const SignUp = (data) => {
     return(
             <Portal>
-                <FadeIn>
-                    <div className='modal'>
+                <StyleRoot>
+                    <div className='modal' style={styles.fadeInDownBig}>
                         <img src={Close} className='modal-close' onClick={() => {data.updateData(false)}}></img>
                         <img src={SignInPic} className='modal-pic'></img>
                         <h2>Авторизация</h2>
@@ -26,7 +31,7 @@ const SignUp = (data) => {
                         <span></span>
                         <a href='#'>Зарегистрироваться</a>
                     </div>
-                </FadeIn>
+                </StyleRoot>
             </Portal>
     )
 }
