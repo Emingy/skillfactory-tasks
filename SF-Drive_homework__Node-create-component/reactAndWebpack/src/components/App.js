@@ -8,6 +8,7 @@ import {
 import Header from "./Header";
 import About from './About';
 import Faq from './Faq';
+import SignUp from './SignUp';
 import Footer from "./Footer";
 import '../fonts/roboto/roboto.css';
 import '../styles/main.css';
@@ -19,11 +20,17 @@ function App() {
         <Header />
         <Router>
              <Switch>
-             <Route exact path="/About" component={About}/>
-            <Route exact path="/Faq" component={Faq}/>
+                <Route path="/About">
+                  <About />
+                  <Footer />
+                </Route>
+                <Route exact path="/Faq">
+                  <Faq />
+                  <Footer />
+                </Route>
+                <Route exact path="/signUp" component={SignUp}/>
              </Switch>
         </Router>
-        <Footer />
       </div>
     </Fragment>
   );

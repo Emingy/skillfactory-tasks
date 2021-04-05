@@ -10,6 +10,7 @@ import SignInPic from '../img/undraw_sign_in.svg';
 
 import '../styles/signIn.css';
 
+const srcSignUpPage = '../signUp'
 const styles = {
     fadeInDownBig: {
       animation: 'x 0.8s',
@@ -29,7 +30,7 @@ const SignUp = (data) => {
                         <input type='password' placeholder='Пароль' className='modal-input-pass'></input>
                         <button className='modal-button-signIn disable'>Войти</button>
                         <span></span>
-                        <a href='#'>Зарегистрироваться</a>
+                        <a href={srcSignUpPage}>Зарегистрироваться</a>
                     </div>
                 </StyleRoot>
             </Portal>
