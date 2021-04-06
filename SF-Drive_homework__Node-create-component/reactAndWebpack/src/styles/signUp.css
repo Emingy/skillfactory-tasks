@@ -23,6 +23,95 @@
         text-align: center;
         color: #1B1B1B;
     }
+    .b-signup .b-signup-description{
+        margin: 30px auto 0;
+        width: 753px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 147.3%;
+        text-align: center;
+        color: #1B1B1B;
+    }
+    .b-signup .b-signup-photo-dropdown{
+        display: flex;
+        margin: 50px auto 0;
+        width: 431px;
+        height: 321px;
+        background: #F7F7F8;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+        .b-signup .b-signup-photo-dropdown div{
+            display: flex;
+            margin: auto;
+            width: 48px;
+            height: 48px;
+            background: #FFFFFF;
+            opacity: 0.5;
+            border-radius: 50%;
+        }
+            .b-signup .b-signup-photo-dropdown div img{
+                margin: auto;
+            }
+    .b-signup .b-signup-docs-dropdown{
+        width: 678px;
+        height: 321px;
+        background: #FFFFFF;
+        border: 1px dashed #BDBDBD;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 50px auto 0;
+    }
+        .b-signup .b-signup-docs-dropdown img{
+            display: block;
+            margin: 106px auto 0;
+        }
+        .b-signup .b-signup-docs-dropdown p{
+            width: 304px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            margin: 15px auto 0;
+            line-height: 147.3%;
+            color: #1B1B1B;
+        }
+            .b-signup .b-signup-docs-dropdown p a{
+                color: #61A199;
+                cursor: pointer;
+            }
+        .b-signup .b-signup-docs-dropdown span{
+            display: block;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            margin: 5px auto 0;
+            line-height: 147.3%;
+            width: 191px;
+            color: #828282;
+        }
+    .b-signup .b-signup-back{
+        display: flex;
+        position: absolute;
+        left: 241px;
+        top: 157px;
+        cursor: pointer;
+    }
+        .b-signup .b-signup-back-arrow__back{
+            width: 15,84px;
+            height: 15,84px;
+        }
+        .b-signup p{
+            margin: auto 0 auto 10px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            color: #508E87;
+        }
     .b-signup .b-signup-block{
         width: 679px;
         margin: 60px auto 0;
@@ -35,9 +124,10 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 58px;
+        height: 0px;
         background: #EB5757;
         z-index: 1000;
+        transition: 0.5s;
     }
         .b-signup #error-form p{
             font-family: Roboto;
@@ -48,6 +138,7 @@
             text-align: center;
             color: #FFFFFF;
             margin: 19px auto 20px auto;
+            display: none;
         }
         .b-signup .b-signup-block h3{
             font-family: Roboto;

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-
-import SignUp from './signIn'
+import {NavLink} from 'react-router-dom';
+import SignUp from './signIn';
 import logo from '../img/Logo.svg';
 
 function Header() {
@@ -20,18 +20,18 @@ function Header() {
                 <span></span>
             </label>
             <div className="menu_box">
-                <a className={srcAboutPage.indexOf(window.location.pathname)!==-1 ? 'active' : 'disable'}  href={srcAboutPage}>О нас</a>
+                <NavLink to={srcAboutPage} activeClassName='active'>О нас</NavLink>
                 <span></span>
                 <a href="#">Условия</a>
                 <span></span>
-                <a className={srcFaqPage.indexOf(window.location.pathname)!==-1 ? 'active' : 'disable'} href={srcFaqPage}>Частые вопросы</a>
+                <NavLink to={srcFaqPage} activeClassName='active'>Частые вопросы</NavLink>
                 <button>Войти</button>
             </div>
         </div>
         <nav>
-            <a className={(window.location.pathname!='/' && srcAboutPage.indexOf(window.location.pathname)!==-1) ? 'active' : 'disable'} href={srcAboutPage}>О нас</a>
+            <NavLink to={srcAboutPage} activeClassName='active'>О нас</NavLink>
             <a href="#">Условия</a>
-            <a className={(window.location.pathname!='/' && srcFaqPage.indexOf(window.location.pathname)!==-1) ? 'active' : 'disable'} href={srcFaqPage}>Частые вопросы</a>
+            <NavLink to={srcFaqPage} activeClassName='active'>Частые вопросы</NavLink>
         </nav>
         <button className="h-signin" onClick={()=> setShow(true)}>Войти</button>
         {showModal && <SignUp updateData={updateData}></SignUp>}
