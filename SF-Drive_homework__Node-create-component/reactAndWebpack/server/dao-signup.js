@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
+    planing: String,
     name: String,
     birthDate: Date,
     email: String,
@@ -11,7 +12,8 @@ const userSchema = new mongoose.Schema({
     passportCode: Number,
     driveSerialNumber: Number,
     driveDateIssue: Date,
-    password: String
+    password: String,
+    file:Array
 })
 const url = 'mongodb+srv://dbUser:temp123@cluster0.3akyl.mongodb.net/SF-Drive';
 const User = mongoose.model('Users', userSchema);

@@ -4,11 +4,13 @@ import Radium, {StyleRoot} from 'radium';
 import { fadeInDownBig } from 'react-animations';
 import Portal from './portal';
 import {Link} from 'react-router-dom';
+import SignUp from './SignUpStepone';
 
 import Close from '../img/module-close.svg';
 import SignInPic from '../img/undraw_sign_in.svg';
 
 import '../styles/signIn.css';
+
 
 const srcSignUpPage = '../signUp/stepone'
 const styles = {
@@ -18,7 +20,7 @@ const styles = {
     }
 }
 
-const SignUp = (data) => {
+const SignIn = (data) => {
     return(
             <Portal>
                 <StyleRoot>
@@ -37,4 +39,4 @@ const SignUp = (data) => {
     )
 }
 
-export default SignUp
+export default SignIn

@@ -3,6 +3,41 @@
     margin-top: 90px;
     padding-bottom: 174px;
 }
+    .b-signup .b-signup-success{
+        width: 503px;
+        height: 531px;
+        margin: 234px auto 0;
+    }
+        .b-signup .b-signup-success .b-signup-success-img{
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 97px auto 0;
+        }
+        .b-signup .b-signup-success .b-signup-success-headline{
+            width: 143px;
+            height: 41px;
+            font-family: Rubik Mono One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 147.3%;
+            text-align: center;
+            color: #000000;
+            margin: 39px auto 0;
+        }
+        .b-signup .b-signup-success .b-signup-success-description{
+            width: 426px;
+            height: 108px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 147.3%;
+            text-align: center;
+            color: #333333;
+            margin: 26px auto 0;
+        }
     .b-signup .b-signup-step{
         margin-top: 150px;
         font-family: Roboto;
@@ -34,27 +69,118 @@
         text-align: center;
         color: #1B1B1B;
     }
-    .b-signup .b-signup-photo-dropdown{
+    .b-signup .b-signup-close{
+        cursor: pointer;
         display: flex;
-        margin: 50px auto 0;
-        width: 431px;
-        height: 321px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 40px;
+        top: 20px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+    }
+        .b-signup .b-signup-close span{
+            background: url('../img/close\ 1.svg');
+            background-size: contain;
+            width: 24px;
+            height: 24px;
+            margin: auto;
+            display: block;
+        }
+    .b-signup .b-signup-close:hover{
+        background: #F2F2F2;
+    }
+    .b-signup .b-signup-select{
+        margin-top: 60px;
+        width: 572px;
+        margin: 60px auto 0;
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        grid-template-rows: 0fr;
+        gap: 0px 22px;
+    }
+        .b-signup .b-signup-select label{            
+            width: 275px;
+            height: 224px;
+            background: #FFFFFF;
+            /* background: #F2F2F2; */
+            border: 1px solid #974b4b;
+            box-sizing: border-box;
+        }
+        .b-signup .b-signup-select input{
+            display: none;
+        }
+        .b-signup .b-signup-select input:checked+label{
+            background: #F2F2F2;
+        }
+            .b-signup .b-signup-select label span{
+                display: block;
+                margin: 33px auto 0;
+                border-radius: 50%;
+                width: 92px;
+                height: 92px;
+                background: #C4C4C4;
+            }
+            .b-signup .b-signup-select label p{   
+                margin: 25px auto 0;
+                width: 134px;
+                height: 48px;
+                font-family: Rubik;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 120%;
+                text-align: center;
+                color: #000000;
+            }
+    .b-signup .b-signup-photo-dropdown{
+        margin: 40px auto 0;
+        width: 574px;
+        height: 273px;
         background: #F7F7F8;
-        border-radius: 10px;
+        border: 1px dashed #828282;
+        box-sizing: border-box;
         cursor: pointer;
     }
-        .b-signup .b-signup-photo-dropdown div{
-            display: flex;
-            margin: auto;
+        .b-signup .b-signup-photo-dropdown div input{
+            display: none;
+        }
+        .b-signup .b-signup-photo-dropdown div img{
+            margin: 76px auto 0;
             width: 48px;
             height: 48px;
-            background: #FFFFFF;
-            opacity: 0.5;
-            border-radius: 50%;
+            display: block;
         }
-            .b-signup .b-signup-photo-dropdown div img{
-                margin: auto;
-            }
+        .b-signup .b-signup-photo-dropdown div p{
+            width: 313px;
+            height: 29px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 147.3%;
+            color: #000000;
+            margin: 15px auto 0;
+        }
+        .b-signup .b-signup-photo-dropdown div p a{
+            color: #2F80ED;
+        }
+        .b-signup .b-signup-photo-dropdown div span{
+            display: block;
+            margin: 5px auto 0;
+            width: 224px;
+            height: 24px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 147.3%;
+            color: #000000;
+            opacity: 0.4;
+        }
     .b-signup .b-signup-docs-dropdown{
         width: 678px;
         height: 321px;
@@ -94,15 +220,25 @@
             color: #828282;
         }
     .b-signup .b-signup-back{
+        cursor: pointer;
         display: flex;
         position: absolute;
-        left: 241px;
-        top: 157px;
-        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        left: 40px;
+        top: 20px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        border: 1px solid #828282;
+        box-sizing: border-box;
     }
-        .b-signup .b-signup-back-arrow__back{
-            width: 15,84px;
-            height: 15,84px;
+        .b-signup .b-signup-back span{
+            background: url('../img/arrow-back.svg');
+            background-size: contain;
+            width: 24px;
+            height: 24px;
+            margin: auto;
+            display: block;
         }
         .b-signup p{
             margin: auto 0 auto 10px;
@@ -283,7 +419,8 @@
 
     .b-signup  .b-signup-submit{
         width: 100%;
-        height: 84px;
+        height: 0px;
+        transition: 0.5s;
         position: fixed;
         bottom: 0;
         left: 0;
@@ -294,19 +431,15 @@
             display: block;
             width: 176px;
             height: 51px;
-            background: #E6E6E6;
+            background: #C4C4C4;
             border-radius: 6px;
             font-family: Roboto;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 19px;
-            color: #B4B5BD;
-            margin: 17px auto 16px;
+            color: #000000;
+            margin: 25px auto 25px;
             outline: none;
-        }
-        .b-signup  .b-signup-submit input.active{
-            background: #61A199 !important;
-            color: #FFFFFF;
             cursor: pointer;
         }
