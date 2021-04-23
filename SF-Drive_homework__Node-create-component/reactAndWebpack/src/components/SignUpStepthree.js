@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import Axios from 'axios'
 import '../styles/signUp.css';
 import cam from '../img/photo-dropzone.svg'
+import { ACCESS_TOKEN_KEY, REFRESH_TOKEN_KEY } from './constants';
 
 function SignUpStepThree (props) {
     const [files, setFiles] = useState([]);
@@ -68,8 +69,10 @@ function SignUpStepThree (props) {
             .then(res=>res.data)
             .then(data=>{
                 console.log(data)
-                if(data.split(':')[1]=='200'){
-                    redirect('/signUp/SignUpSuccess');
+                if(data.code=='200'){
+                    localStorage.setItem(ACCESS_TOKEN_KEY, data.accessToken);
+                    localStorage.setItem(REFRESH_TOKEN_KEY, data.refreshToken);
+                    redirect('/signUp/success');
                 }else{
                     error()
                 }

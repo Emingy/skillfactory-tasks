@@ -1,35 +1,32 @@
 const mongoose = require('mongoose');
+var User = require('./user_model.js');
 
-const userSchema = new mongoose.Schema({
-    planing: String,
-    name: String,
-    birthDate: Date,
-    email: String,
-    mobile: Number,
-    passportSerialNumber: Number,
-    passportDateIssue: Date,
-    passportIssuedBy: String,
-    passportCode: Number,
-    driveSerialNumber: Number,
-    driveDateIssue: Date,
-    password: String,
-    file:Array
-})
 const url = 'mongodb+srv://dbUser:temp123@cluster0.3akyl.mongodb.net/SF-Drive';
-const User = mongoose.model('Users', userSchema);
 module.exports.signupDao = async function(data){
-    const test = await mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true})
-        .then(async ()=>{
+    const db = await mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true})
+    // if (db) {
+    //     const newUser = await new User(data);
+    //     const status = await newUser.save(function(err){
+    //         mongoose.connection.close()
+    //         if(err) return 400;
+    //         return 200;
+    //     });
+    // }else{
+    //     return 400
+    // }
+    .then(async ()=>{
             const newUser = await new User(data);
             const status = await newUser.save();
             if(status){
-                return(`Code:200`);
+                return 200;
             }else{
-                return(`Code:400`);
+                mongoose.connection.close()
+                return 400;
             }
         })
         .catch((error)=> {
-            return(`Code:${error.code}`)
+            mongoose.connection.close()
+            return error.code;
         })
-    return test
+    return db
 }

@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useCallback, Component } from 'react';
 import success from '../img/signup-success.svg'
+import { useHistory } from 'react-router-dom';
 
 function SignUpSuccess (props) {
+    const history = useHistory()
     function redirect(url){
         history.push(url)
     }

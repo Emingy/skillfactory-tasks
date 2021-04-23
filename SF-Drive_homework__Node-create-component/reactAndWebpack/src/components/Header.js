@@ -4,10 +4,19 @@ import SignIn from './signIn';
 import logo from '../img/Logo.svg';
 
 function Header() {
+    const [buttonDisable, setDisabled] = useState(true);
     const updateData = (value) => {
         setShow(value)
     }
     const [showModal, setShow] = useState(false);
+    const updateDataRec = (value) => {
+        setShowRec(value)
+    }
+    const [showModalRec, setShowRec] = useState(false);    
+    const updateDataSuc = (value) => {
+        setShowSuc(value)
+    }
+    const [showSuc, setShowSuc] = useState(false);
     let srcAboutPage = '../About';
     let srcFaqPage = '../Faq';
 
@@ -39,7 +48,7 @@ function Header() {
             <NavLink to={srcFaqPage} activeClassName='active'>Частые вопросы</NavLink>
         </nav>
         <button className="h-signin" onClick={()=> setShow(true)}>Войти</button>
-        {showModal && <SignIn updateData={updateData}></SignIn>}
+        {showModal && <SignIn updateData={updateData} updateDataRec={updateDataRec} showModalRec={showModalRec} setShowSuc={setShowSuc} showSuc={showSuc} buttonDisable={buttonDisable} setDisabled={setDisabled}></SignIn>}
     </header>
     );
 }

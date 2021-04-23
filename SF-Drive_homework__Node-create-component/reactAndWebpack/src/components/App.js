@@ -14,6 +14,7 @@ import SignUpsuccess from './SignUpSuccess';
 import Footer from "./Footer";
 import '../fonts/roboto/roboto.css';
 import '../styles/main.css';
+import { ACCESS_TOKEN_KEY } from './constants';
 
 function App() {
   return (
