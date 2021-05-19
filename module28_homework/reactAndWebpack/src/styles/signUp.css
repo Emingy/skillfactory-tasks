@@ -1,0 +1,445 @@
+.b-signup{
+    width: 100%;
+    margin-top: 90px;
+    padding-bottom: 174px;
+}
+    .b-signup .b-signup-success{
+        width: 503px;
+        height: 531px;
+        margin: 234px auto 0;
+    }
+        .b-signup .b-signup-success .b-signup-success-img{
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 97px auto 0;
+        }
+        .b-signup .b-signup-success .b-signup-success-headline{
+            width: 143px;
+            height: 41px;
+            font-family: Rubik Mono One;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 147.3%;
+            text-align: center;
+            color: #000000;
+            margin: 39px auto 0;
+        }
+        .b-signup .b-signup-success .b-signup-success-description{
+            width: 426px;
+            height: 108px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 147.3%;
+            text-align: center;
+            color: #333333;
+            margin: 26px auto 0;
+        }
+    .b-signup .b-signup-step{
+        margin-top: 150px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 147.3%;
+        text-align: center;
+        color: #828282;
+    }
+    .b-signup h1{
+        margin-top: 14px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 120%;
+        text-align: center;
+        color: #1B1B1B;
+    }
+    .b-signup .b-signup-description{
+        margin: 30px auto 0;
+        width: 753px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 147.3%;
+        text-align: center;
+        color: #1B1B1B;
+    }
+    .b-signup .b-signup-close{
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 40px;
+        top: 20px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+    }
+        .b-signup .b-signup-close span{
+            background: url('../img/close\ 1.svg');
+            background-size: contain;
+            width: 24px;
+            height: 24px;
+            margin: auto;
+            display: block;
+        }
+    .b-signup .b-signup-close:hover{
+        background: #F2F2F2;
+    }
+    .b-signup .b-signup-select{
+        margin-top: 60px;
+        width: 572px;
+        margin: 60px auto 0;
+        display: grid;
+        grid-template-columns: 0fr 0fr;
+        grid-template-rows: 0fr;
+        gap: 0px 22px;
+    }
+        .b-signup .b-signup-select label{            
+            width: 275px;
+            height: 224px;
+            background: #FFFFFF;
+            /* background: #F2F2F2; */
+            border: 1px solid #974b4b;
+            box-sizing: border-box;
+        }
+        .b-signup .b-signup-select input{
+            display: none;
+        }
+        .b-signup .b-signup-select input:checked+label{
+            background: #F2F2F2;
+        }
+            .b-signup .b-signup-select label span{
+                display: block;
+                margin: 33px auto 0;
+                border-radius: 50%;
+                width: 92px;
+                height: 92px;
+                background: #C4C4C4;
+            }
+            .b-signup .b-signup-select label p{   
+                margin: 25px auto 0;
+                width: 134px;
+                height: 48px;
+                font-family: Rubik;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 120%;
+                text-align: center;
+                color: #000000;
+            }
+    .b-signup .b-signup-photo-dropdown{
+        margin: 40px auto 0;
+        width: 574px;
+        height: 273px;
+        background: #F7F7F8;
+        border: 1px dashed #828282;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+        .b-signup .b-signup-photo-dropdown div input{
+            display: none;
+        }
+        .b-signup .b-signup-photo-dropdown div img{
+            margin: 76px auto 0;
+            width: 48px;
+            height: 48px;
+            display: block;
+        }
+        .b-signup .b-signup-photo-dropdown div p{
+            width: 313px;
+            height: 29px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 147.3%;
+            color: #000000;
+            margin: 15px auto 0;
+        }
+        .b-signup .b-signup-photo-dropdown div p a{
+            color: #2F80ED;
+        }
+        .b-signup .b-signup-photo-dropdown div span{
+            display: block;
+            margin: 5px auto 0;
+            width: 224px;
+            height: 24px;
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 147.3%;
+            color: #000000;
+            opacity: 0.4;
+        }
+    .b-signup .b-signup-docs-dropdown{
+        width: 678px;
+        height: 321px;
+        background: #FFFFFF;
+        border: 1px dashed #BDBDBD;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin: 50px auto 0;
+    }
+        .b-signup .b-signup-docs-dropdown img{
+            display: block;
+            margin: 106px auto 0;
+        }
+        .b-signup .b-signup-docs-dropdown p{
+            width: 304px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            margin: 15px auto 0;
+            line-height: 147.3%;
+            color: #1B1B1B;
+        }
+            .b-signup .b-signup-docs-dropdown p a{
+                color: #61A199;
+                cursor: pointer;
+            }
+        .b-signup .b-signup-docs-dropdown span{
+            display: block;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            margin: 5px auto 0;
+            line-height: 147.3%;
+            width: 191px;
+            color: #828282;
+        }
+    .b-signup .b-signup-back{
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 40px;
+        top: 20px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+    }
+        .b-signup .b-signup-back span{
+            background: url('../img/arrow-back.svg');
+            background-size: contain;
+            width: 24px;
+            height: 24px;
+            margin: auto;
+            display: block;
+        }
+        .b-signup p{
+            margin: auto 0 auto 10px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            color: #508E87;
+        }
+    .b-signup .b-signup-block{
+        width: 679px;
+        margin: 60px auto 0;
+    }
+    .b-signup .ma52{
+        margin: 52px auto 0 !important;
+    }
+    .b-signup #error-form{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0px;
+        background: #EB5757;
+        z-index: 1000;
+        transition: 0.5s;
+    }
+        .b-signup #error-form p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+            margin: 19px auto 20px auto;
+            display: none;
+        }
+        .b-signup .b-signup-block h3{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 147.3%;
+            color: #1B1B1B;
+            margin-bottom: 30px;
+        }
+        .b-signup .b-signup-block div{
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+        }
+            .b-signup .b-signup-block div div{
+                display: flex;
+                height: auto;
+                flex-direction: column;
+                margin-top: 0;
+            }
+                .b-signup .b-signup-block div div span#email-error{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #EB5757;
+                    margin: 8px 277px 0px auto;
+                    display: none;
+                }
+                .b-signup .b-signup-block div div span#pass-error{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #EB5757;
+                    margin: 8px 270px 0px auto;
+                    display: none;
+                }
+            .b-signup .b-signup-block div p{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+                margin-top: 14px;
+                white-space: pre;
+            }
+            .b-signup .b-signup-block div input{
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 6px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+                padding: 14px 12px 14px 12px;
+            }
+            .b-signup .b-signup-block div input.error{
+                border-color: #EB5757 !important;
+            }
+            .b-signup .b-signup-block div input.error:focus{
+                border: 2px solid #EB5757 !important;
+                outline: none;
+            }
+            .b-signup .b-signup-block div input:not([type='button']):not(.error):focus{
+                border: 2px solid #61A199 !important;
+                outline: none;
+            }
+            .b-signup .b-signup-block div input:not([type='button']):hover{
+                border: 1px solid #61A199;
+            }
+            .b-signup .b-signup-block div input::placeholder{
+                color: #BDBDBD;
+            }
+            .b-signup .b-signup-block div input[type='text']{
+                width: 416px;
+                height: 44px;
+                margin: 0 0 0 auto;
+            }
+            .b-signup .b-signup-block div input[type='email']{
+                width: 416px;
+                height: 44px;
+                margin: 0 0 0 auto;
+            }
+            .b-signup .b-signup-block div input[type='date']{
+                width: 155px;
+                height: 44px;
+                margin: 0 261px 0 auto;
+            }
+            .b-signup .b-signup-block div input[type='date']::-webkit-inner-spin-button {
+                display: none;
+            }
+            .b-signup .b-signup-block div input[type='date']::-webkit-calendar-picker-indicator {
+                margin: 11px 0px 11px auto;
+                background-image: url('../img/input-date.svg');
+            }
+            .b-signup .b-signup-block div input[type='number']{
+                width: 155px;
+                height: 44px;
+                margin: 0 261px 0 auto;
+            }
+            .b-signup .b-signup-block div input[type='number']::-webkit-inner-spin-button {
+                display: none;
+            }
+            .b-signup .b-signup-block div .b-signup-block-password input[type='password']{
+                width: 416px;
+                height: 44px;
+                margin: 0 0 0 auto;
+                padding: 14px 40px 14px 12px !important;
+            }
+            .b-signup .b-signup-block div input[type='button']{
+                background: url('../img/pass-show.svg');
+                background-size: cover;
+                border: none;
+                width: 22px;
+                height: 19px;
+                outline: none;
+                padding: 0;
+                position: absolute;
+                right: 12px;
+                top: 13px;
+                cursor: pointer;
+            }
+            .b-signup .b-signup-block div .active{
+                height: 15px !important;
+                top: 14px !important;
+                background: url('../img/pass-hide.svg') !important;
+            }
+            .b-signup-block-password{
+                position: relative;
+                display: block !important;
+                margin: 0 0 0 auto !important;
+                width: 416px !important;
+            }
+
+    .b-signup  .b-signup-submit{
+        width: 100%;
+        height: 0px;
+        transition: 0.5s;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #FFFFFF;
+        box-shadow: 0px -1px 0px #DEE2E4;
+    }
+        .b-signup  .b-signup-submit input{
+            display: block;
+            width: 176px;
+            height: 51px;
+            background: #C4C4C4;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin: 25px auto 25px;
+            outline: none;
+            cursor: pointer;
+        }

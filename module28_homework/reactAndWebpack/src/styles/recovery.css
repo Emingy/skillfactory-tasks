@@ -1,0 +1,88 @@
+.modal-recovery{
+    margin: 167px auto;
+    left: 0;
+    right: 0;
+    width: 504px;
+    height: 566px;
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 999;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.modal-recovery .modal-close{
+    width: 14px;
+    height: 14px;
+    margin: 25px 0 0 465px;
+    cursor: pointer;
+}
+.modal-recovery .modal-pic{
+    margin: 22px auto 0;
+    width: 302px;
+    height: 181px;
+    display: block;
+}
+.modal-recovery .modal-pic-success{
+    margin: 60px auto 0;
+    width: 302px;
+    height: 181px;
+    display: block;
+}
+.modal-recovery h2 {
+    margin-top: 38px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    color: #1B1B1B;
+}
+.modal-recovery .modal-input-login{
+    width: 350px;
+    height: 44px;
+    padding: 14px 12px 14px 12px;
+    margin: 40px auto 0;
+    background: #FFFFFF;
+    border: 1px solid #D0CDE1;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.modal-recovery input:focus{
+    outline: #61A199 auto 1px;
+}
+.modal-recovery button{
+    width: 126px;
+    height: 51px;
+    margin: 30px auto 0;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.modal-recovery button.active{
+    cursor: pointer;
+    background: #61A199;
+    color: #FFFFFF;
+}
+.modal-recovery button.disable{
+    cursor: unset;
+    background: #E5E7F0;
+    color: #B4B5BD;
+    outline: none;
+}
+.modal-recovery p{
+    width: 333px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1B1B1B;
+    margin: 10px auto 0;
+}
