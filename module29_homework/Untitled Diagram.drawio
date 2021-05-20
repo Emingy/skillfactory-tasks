@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T12:26:19.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.244" etag="v4FD70dB_a19mXL7QrOd" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T12:58:03.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.244" etag="lolb3iuF3Mtx3Uk72Nlu" version="14.6.13" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="986" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1397" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,7 +179,7 @@
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rIQa-dV03sElTaBEnpWL-26" value="Модели автомобилей" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="730" y="250" width="160" height="104" as="geometry" />
+          <mxGeometry x="790" y="260" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="rIQa-dV03sElTaBEnpWL-27" value="id-model" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-26">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -208,82 +208,330 @@
         <mxCell id="rIQa-dV03sElTaBEnpWL-41" value="Название услуги" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-39">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-21" target="78961159f06e98e8-58">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-21" target="78961159f06e98e8-59">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-31" target="78961159f06e98e8-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-31" target="78961159f06e98e8-60">
+        <mxCell id="rIQa-dV03sElTaBEnpWL-66" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-96" target="rIQa-dV03sElTaBEnpWL-29">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="391.5" as="sourcePoint" />
+            <mxPoint x="860" y="391.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="70" />
-              <mxPoint x="510" y="770" />
-              <mxPoint x="40" y="770" />
-              <mxPoint x="40" y="542" />
+              <mxPoint x="740" y="289" />
+              <mxPoint x="740" y="325" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-21" target="rIQa-dV03sElTaBEnpWL-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="rIQa-dV03sElTaBEnpWL-68" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-66">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-40" target="78961159f06e98e8-63">
+        <mxCell id="rIQa-dV03sElTaBEnpWL-69" value="N" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-66">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-70" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-21" target="78961159f06e98e8-58">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="230" as="sourcePoint" />
+            <mxPoint x="390" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="720" y="639" />
-              <mxPoint x="720" y="750" />
-              <mxPoint x="60" y="750" />
-              <mxPoint x="60" y="620" />
+              <mxPoint x="40" y="70" />
+              <mxPoint x="40" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-40" target="rIQa-dV03sElTaBEnpWL-42">
+        <mxCell id="rIQa-dV03sElTaBEnpWL-72" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-70">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-73" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-70">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-74" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="78961159f06e98e8-59">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="70" as="sourcePoint" />
+            <mxPoint x="90" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="720" y="639" />
-              <mxPoint x="720" y="686" />
+              <mxPoint x="40" y="70" />
+              <mxPoint x="40" y="516" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-36" target="rIQa-dV03sElTaBEnpWL-11">
+        <mxCell id="rIQa-dV03sElTaBEnpWL-75" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-74">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-76" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-74">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-77" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-31" target="78961159f06e98e8-60">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="350" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="529" />
-              <mxPoint x="710" y="386" />
+              <mxPoint x="500" y="70" />
+              <mxPoint x="500" y="760" />
+              <mxPoint x="50" y="760" />
+              <mxPoint x="50" y="542" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-96" target="rIQa-dV03sElTaBEnpWL-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="rIQa-dV03sElTaBEnpWL-79" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-77">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-96" target="rIQa-dV03sElTaBEnpWL-23">
+        <mxCell id="rIQa-dV03sElTaBEnpWL-80" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-77">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-81" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-21" target="rIQa-dV03sElTaBEnpWL-9">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="260" as="sourcePoint" />
+            <mxPoint x="390" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="720" y="289" />
-              <mxPoint x="720" y="126" />
+              <mxPoint x="260" y="70" />
+              <mxPoint x="260" y="99" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-27" target="78961159f06e98e8-32">
+        <mxCell id="rIQa-dV03sElTaBEnpWL-83" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-81">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-84" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-81">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-85" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-40" target="rIQa-dV03sElTaBEnpWL-141">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="500" as="sourcePoint" />
+            <mxPoint x="390" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="910" y="289" />
-              <mxPoint x="910" y="152" />
+              <mxPoint x="730" y="639" />
+              <mxPoint x="760" y="639" />
+              <mxPoint x="760" y="659" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rIQa-dV03sElTaBEnpWL-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-21" target="78961159f06e98e8-45">
+        <mxCell id="rIQa-dV03sElTaBEnpWL-87" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-85">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-88" value="N" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-85">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-89" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rIQa-dV03sElTaBEnpWL-138">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="640" as="sourcePoint" />
+            <mxPoint x="390" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="280" y="70" />
-              <mxPoint x="280" y="20" />
-              <mxPoint x="880" y="20" />
-              <mxPoint x="880" y="75" />
+              <mxPoint x="770" y="640" />
+              <mxPoint x="770" y="519" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-91" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-89">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-92" value="N" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-89">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-93" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-27" target="78961159f06e98e8-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="260" as="sourcePoint" />
+            <mxPoint x="630" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="299" />
+              <mxPoint x="980" y="240" />
+              <mxPoint x="740" y="240" />
+              <mxPoint x="740" y="10" />
+              <mxPoint x="280" y="10" />
+              <mxPoint x="280" y="152" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-95" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-93">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-96" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-93">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-97" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-96" target="rIQa-dV03sElTaBEnpWL-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="308.9999999999999" as="sourcePoint" />
+            <mxPoint x="330" y="162.4999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="289" />
+              <mxPoint x="740" y="10" />
+              <mxPoint x="280" y="10" />
+              <mxPoint x="280" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-99" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-97">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-100" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-97">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-101" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78961159f06e98e8-31" target="78961159f06e98e8-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="260" as="sourcePoint" />
+            <mxPoint x="740" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="71" />
+              <mxPoint x="670" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-103" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-101">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-104" value="N" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-101">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-110" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-36" target="rIQa-dV03sElTaBEnpWL-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="380" as="sourcePoint" />
+            <mxPoint x="720" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="529" />
+              <mxPoint x="720" y="470" />
+              <mxPoint x="510" y="470" />
+              <mxPoint x="510" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-112" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-110">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-113" value="N" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-110">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-115" value="Опции автомобиля" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-116" value="id-option" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-115">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-117" value="id-car" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-115">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-118" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-117" target="78961159f06e98e8-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="430" as="sourcePoint" />
+            <mxPoint x="820" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="435" />
+              <mxPoint x="760" y="20" />
+              <mxPoint x="290" y="20" />
+              <mxPoint x="290" y="71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-120" value="N" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-118">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-121" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-118">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-122" value="userComments" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="480" y="-90" width="160" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-123" value="id-user" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-122">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-124" value="id-comment" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-122">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-125" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rIQa-dV03sElTaBEnpWL-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="70" as="sourcePoint" />
+            <mxPoint x="640" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="70" />
+              <mxPoint x="260" y="-51" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-127" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-125">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-128" value="N" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-125">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-129" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-124" target="78961159f06e98e8-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="230" as="sourcePoint" />
+            <mxPoint x="640" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="-25" />
+              <mxPoint x="850" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-131" value="N" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-129">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-132" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-129">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-137" value="carServices" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="800" y="480" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-138" value="id-services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-137">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-139" value="id-car" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-137">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-140" value="orderServices" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="790" y="620" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-141" value="id-services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-140">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-142" value="id-order" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rIQa-dV03sElTaBEnpWL-140">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-143" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-139" target="78961159f06e98e8-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="670" as="sourcePoint" />
+            <mxPoint x="310" y="64.11764705882354" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="550" />
+              <mxPoint x="1010" y="780" />
+              <mxPoint x="280" y="780" />
+              <mxPoint x="280" y="71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-145" value="N" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-143">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-146" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-143">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-147" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rIQa-dV03sElTaBEnpWL-142" target="78961159f06e98e8-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="570" as="sourcePoint" />
+            <mxPoint x="740" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="685" />
+              <mxPoint x="990" y="770" />
+              <mxPoint x="20" y="770" />
+              <mxPoint x="20" y="464" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-149" value="N" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-147">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rIQa-dV03sElTaBEnpWL-150" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="rIQa-dV03sElTaBEnpWL-147">
+          <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
