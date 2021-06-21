@@ -1,0 +1,55 @@
+type Car {
+    id: ID!
+    brand: String!
+    model: String!
+    yearIssue: Int!
+    governmentNumber: String!
+    vin: String!
+    color: String!
+    drive: String!
+    Enginefuel: String!
+    Enginevolume: String!
+    Enginepower: String!
+    transmission: String!
+    mileage: String!
+    VPSerialAndNumber: String!
+    VRCSerialAndNumber: String!
+    PriceOne: String!
+    PriceTwo: String!
+    PriceThree: String!
+    Osago: String!
+    Kasko: String!
+    Options: [Car!]!
+    AdditionalServices: [Car!]!
+    photosAuto: [Car!]!
+    photosDoc: [Car!]!
+}
+
+type Reserv {
+    id: ID!
+    id_user: String!
+    id_car: String!
+    dates: String!
+}
+
+input GetCarsInput {
+    price: String
+    transmission: String
+    drive: String
+    engine: String   
+}
+
+input AddReservInput {
+    id_user: String!
+    id_car: String!
+    dates: String!
+}
+
+type Query {
+    Car(getCarsInput: GetCarsInput!): [Car!]!
+    getReserv(id_user: String!): [Reserv!]!
+}
+
+type Mutation {
+    AddReserv(addReservInput: AddReservInput!): Reserv!
+}

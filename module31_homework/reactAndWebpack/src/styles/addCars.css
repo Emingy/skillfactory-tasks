@@ -1,0 +1,1148 @@
+
+@media screen and (min-width: 1440px) {
+.b-main-addCars-back{
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 207px;
+    top: 155px;
+    display: flex;
+}
+    .b-main-addCars-back>img{
+        width: 24px;
+        height: 24px;
+    }
+    .b-main-addCars-back>p{
+        margin: auto auto auto 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 147.3%;
+        color: #508E87;
+    }
+.b-main-addCars-steps{
+    margin: 150px auto 0 auto;
+    width: 98px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+    text-align: center;
+    color: #828282;
+}
+.b-main-addCars-headline{
+    margin: 14px auto 0 auto;
+    width: 591px;
+    height: 77px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;    
+    text-align: center;
+    color: #1B1B1B;
+}
+.b-main-addCars-info-headline{
+    margin: 14px auto 0 379px;
+    width: 485px;
+    height: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 147.3%;
+    color: #1B1B1B;
+}
+.b-main-addCars-info{
+    width: 676px;
+    margin: 0 auto 0 auto;
+}
+    .b-main-addCars-info>div{
+        width: 676px;
+        margin: 20px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .b-main-addCars-info>div:first-child{
+        margin: 30px auto 0 auto;
+    }
+        .b-main-addCars-info>div>p{
+            margin: auto 0 auto 0;
+            width: 260px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-info>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-info>div>input[class='thin']{
+            width: 155px;
+            height: 44px;
+        }
+        .b-main-addCars-info>div>input[class='wide']{
+            width: 416px;
+            height: 44px;
+        }
+.b-main-addCars-info-two{
+    width: 676px;
+    margin: 0 auto 0 auto;
+}
+    .b-main-addCars-info-two>div{
+        width: 676px;
+        margin: 20px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .b-main-addCars-info-two>div:first-child{
+        margin: 60px auto 0 auto;
+    }
+        .b-main-addCars-info-two>div>p{
+            margin: auto 0 auto 0;
+            width: 260px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-info-two>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+            .b-main-addCars-info-two>div>div>input{
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 6px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+                width: 155px;
+                height: 44px;
+            }
+        .ml-10{
+            margin-left: 10px;
+        }
+        .b-main-addCars-info-two>div>input[class='thin']{
+            width: 155px;
+            height: 44px;
+        }
+        .b-main-addCars-info-two>div>input[class='wide']{
+            width: 416px;
+            height: 44px;
+        }
+.b-main-addCars-info-three{
+    width: 676px;
+    margin: 0 auto 0 auto;
+}
+    .b-main-addCars-info-three>div{
+        width: 676px;
+        margin: 20px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .b-main-addCars-info-three>div:first-child{
+        margin: 60px auto 0 auto;
+    }
+        .b-main-addCars-info-three>div>p{
+            margin: auto 0 auto 0;
+            width: 260px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-info-three>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-info-three>div>input[class='thin']{
+            width: 155px;
+            height: 44px;
+        }
+        .b-main-addCars-info-three>div>input[class='wide']{
+            width: 416px;
+            height: 44px;
+        }
+.b-main-addCars-price-headline{
+    margin: 60px auto 0 379px;
+    width: 485px;
+    height: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 147.3%;
+    color: #1B1B1B;
+}
+    .b-main-addCars-price{
+        width: 676px;
+        margin: 0 auto 0 auto;
+    }
+    .b-main-addCars-price>div{
+        width: 676px;
+        margin: 20px auto 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .b-main-addCars-price>div:first-child{
+        margin: 60px auto 0 auto;
+    }
+        .b-main-addCars-price>div>p{
+            margin: auto 0 auto 0;
+            width: 260px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-price>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-price>div>input[class='thin']{
+            width: 155px;
+            height: 44px;
+        }
+        .b-main-addCars-price>div>input[class='wide']{
+            width: 416px;
+            height: 44px;
+        }
+.b-main-addCars-insurance-headline{
+    margin: 60px auto 0 379px;
+    width: 485px;
+    height: 53px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 147.3%;
+    color: #1B1B1B;
+}
+    .b-main-addCars-insurance{
+        width: 676px;
+        margin: 0 auto 0 auto;
+        padding-bottom: 110px;
+    }
+        .b-main-addCars-insurance>div{
+            width: 676px;
+            margin: 20px auto 0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .b-main-addCars-insurance>div:first-child{
+            margin: 60px auto 0 auto;
+        }
+            .b-main-addCars-insurance>div>p{
+                margin: auto 0 auto 0;
+                width: 260px;
+                height: 16px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+                text-align: left;
+            }
+            .b-main-addCars-insurance>div>input{
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 6px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+            }
+            .b-main-addCars-insurance>div>input[class='thin']{
+                width: 155px;
+                height: 44px;
+            }
+            .b-main-addCars-insurance>div>input[class='wide']{
+                width: 416px;
+                height: 44px;
+            }
+.b-main-addCars-submit{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    margin-top: 80px;
+    width: 1440px;
+    height: 84px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 0px #DEE2E4;
+}
+    .b-main-addCars-submit>button{
+        display: block;
+        margin: 17px auto auto auto;
+        padding: 16px 40px;
+        width: 176px;
+        height: 51px;
+        background: #61A199;
+        border-radius: 6px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .b-main-addCars-options-headline{
+        margin: 52px auto auto 380px;
+        width: 323px;
+        height: 53px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 147.3%;
+        color: #1B1B1B;
+    }
+    .b-main-addCars-options{
+        display: inline;
+        width: 679px;
+    }
+        .b-main-addCars-options>div{
+            display: block;
+            margin: 15px auto 0 auto;
+            width: 679px;
+            height: 58px;
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: row;
+        }
+        .b-main-addCars-options>div:first-child{
+            margin: 30px auto 0 auto;
+        }
+            .b-main-addCars-options>div>img{
+                margin: 17px auto 0 20px;
+                width: 24px;
+                height: 24px;
+            }
+            .b-main-addCars-options>div>p{
+                margin: 17px auto auto 15px;
+                width: 564px;
+                height: 24px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 147.3%;
+                color: #000000;
+            }
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 36px;
+                height: 20px;
+                margin: auto 20px auto auto;
+              }
+              
+              /* Hide default HTML checkbox */
+              .switch input {display:none;}
+              
+              /* The slider */
+              .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+              }
+              
+              .slider:before {
+                position: absolute;
+                content: "";
+                height: 16px;
+                width: 16px;
+                left: 2px;
+                bottom: 2px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+              }
+              
+              input:checked + .slider {
+                background-color: #61A199;
+              }
+              
+              input:focus + .slider {
+                box-shadow: 0 0 1px #61A199;
+              }
+              
+              input:checked + .slider:before {
+                -webkit-transform: translateX(16px);
+                -ms-transform: translateX(16px);
+                transform: translateX(16px);
+              }
+              
+              /* Rounded sliders */
+              .slider.round {
+                border-radius: 34px;
+              }
+              
+              .slider.round:before {
+                border-radius: 50%;
+              }
+    .b-main-addCars-services-headline{
+        margin: 60px auto auto 380px;
+        width: 413px;
+        height: 53px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 147.3%;
+        color: #1B1B1B;
+    }
+    .b-main-addCars-services{
+        width: 679px;
+        margin: auto;
+        padding-bottom: 150px;
+    }
+        .b-main-addCars-services>div{
+            margin-top: 15px;
+            width: 679px;
+            height: 79px;
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: row;
+        }
+        .b-main-addCars-services>div:first-child{
+            margin-top: 30px;
+        }
+        .b-main-addCars-services>div>div{
+            display: flex;
+            flex-direction: row;
+        }
+            .b-main-addCars-services-service-desc{
+                display: flex;
+                flex-direction: column;
+            }
+                .b-main-addCars-services-service-desc>.headline{
+                    width: 500px;
+                    height: 24px;
+                    margin: 17px auto 0 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 147.3%;
+                    color: #000000;
+                }
+                .b-main-addCars-services-service-desc>.desc{
+                    width: 500px;
+                    height: 18px;
+                    margin: 3px auto 0 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 147.3%;
+                    color: #828282;
+                }
+            .b-main-addCars-services-service-price{
+                display: flex;
+                margin-top: 18px;
+                width: 72px;
+                height: 44px;
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 6px;
+            }
+                .b-main-addCars-services-service-price>p{
+                    margin: auto;
+                    width: 48px;
+                    height: 16px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #BDBDBD;
+                }
+    .b-main-addCars-photos-headline{
+        margin: 30px auto 0 auto;
+        width: 753px;
+        height: 70px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 147.3%;
+        text-align: center;
+        color: #1B1B1B;
+    }
+    .b-main-addCars-photos{
+        display: grid;
+        grid-template-columns: 329px 329px;
+        grid-template-rows: 321px 321px;
+        gap: 31px 20px;
+        grid-template-areas:
+        ". ."
+        ". .";
+        width: 678px;
+        margin: 50px auto 0 auto;
+    }
+    .b-addCars-photo-dropdown{
+        cursor: pointer;
+        width: 678px;
+        height: 321px;
+        background: #FFFFFF;
+        border: 1px dashed #BDBDBD;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+    .b-addCars-photo-dropdown>div>img{
+        display: block;
+        margin: 100px auto 0 auto;
+        width: 48px;
+        height: 48px;
+    }
+    .b-addCars-photo-dropdown>div>p{
+        margin: 15px auto 0 auto;
+        text-align: center;
+        width: 304px;
+        height: 29px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 147.3%;
+        color: #1B1B1B;
+    }
+        .b-addCars-photo-dropdown>div>p>a{
+            color: #61A199;
+        }
+    .b-addCars-photo-dropdown>div>span{
+        display: block;
+        margin: 5px auto 0 auto;
+        width: 191px;
+        height: 21px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 147.3%;
+        color: #828282;
+    }
+    .b-main-addCars-photos-preview{
+        width: 329px;
+        height: 321px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+        .b-main-addCars-photos-preview>img{
+            width: 327px;
+            height: 249px;
+            object-fit: contain;
+        }
+        .b-main-addCars-photos-preview>div{
+
+        }
+        .b-main-addCars-photos-preview>div>h6{
+            margin: 16px auto 0 20px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-photos-preview>div>p{
+            margin: 6px auto 0 20px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;            
+            color: #828282;
+        }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1439px) {
+.b-main-addCars-steps{
+    margin: 88px auto 0 auto;
+    width: 335px;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 147.3%;
+    text-align: center;
+    color: #828282;
+}
+.b-main-addCars-headline{
+    margin: 10px auto 0 auto;
+    width: 295px;
+    height: 38px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;    
+    text-align: center;
+    color: #1B1B1B;
+}
+.b-main-addCars-info-headline{
+    margin: 40px auto 0 auto;
+    width: 335px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 147.3%;
+    color: #1B1B1B;
+}
+.b-main-addCars-info{
+    width: 335px;
+    margin: 0 auto 0 auto;
+}
+    .b-main-addCars-info>div{
+        width: 335px;
+        margin: 26px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .b-main-addCars-info>div:first-child{
+        margin: 30px auto 0 auto;
+    }
+        .b-main-addCars-info>div>p{
+            margin: auto 0 12px 0;
+            width: 335px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-info>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-info>div>input[class='thin']{
+            width: 335px;
+            height: 44px;
+        }
+        .b-main-addCars-info>div>input[class='wide']{
+            width: 335px;
+            height: 44px;
+        }
+.b-main-addCars-info-two{
+    width: 335px;
+    margin: 0 auto 0 auto;
+}
+    .b-main-addCars-info-two>div{
+        width: 335px;
+        margin: 20px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .b-main-addCars-info-two>div:first-child{
+        margin: 50px auto 0 auto;
+    }
+        .b-main-addCars-info-two>div>p{
+            margin: auto 0 12px 0;
+            width: 335px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-info-two>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-info-two>div>div{
+            display: flex;
+            flex-direction: row;
+        }
+            .b-main-addCars-info-two>div>div>input{
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 6px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+                width: 157.5px;
+                height: 44px;
+            }
+        .ml-10{
+            margin-left: 19.5px;
+        }
+        .b-main-addCars-info-two>div>input[class='thin']{
+            width: 335px;
+            height: 44px;
+        }
+        .b-main-addCars-info-two>div>input[class='wide']{
+            width: 335px;
+            height: 44px;
+        }
+.b-main-addCars-info-three{
+    width: 335px;
+    margin: 0 auto 0 auto;
+}
+    .b-main-addCars-info-three>div{
+        width: 335px;
+        margin: 26px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .b-main-addCars-info-three>div:first-child{
+        margin: 50px auto 0 auto;
+    }
+        .b-main-addCars-info-three>div>p{
+            margin: auto 0 12px 0;
+            width: 335px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-info-three>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-info-three>div>input[class='thin']{
+            width: 335px;
+            height: 44px;
+        }
+        .b-main-addCars-info-three>div>input[class='wide']{
+            width: 335px;
+            height: 44px;
+        }
+.b-main-addCars-price-headline{
+    margin: 41px auto 0 auto;
+    width: 335px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 147.3%;
+    color: #1B1B1B;
+}
+    .b-main-addCars-price{
+        width: 335px;
+        margin: 0 auto 0 auto;
+    }
+    .b-main-addCars-price>div{
+        width: 335px;
+        margin: 26px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .b-main-addCars-price>div:first-child{
+        margin: 30px auto 0 auto;
+    }
+        .b-main-addCars-price>div>p{
+            margin: auto 0 12px 0;
+            width: 335px;
+            height: 16px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+            text-align: left;
+        }
+        .b-main-addCars-price>div>input{
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1B1B1B;
+        }
+        .b-main-addCars-price>div>input[class='thin']{
+            width: 335px;
+            height: 44px;
+        }
+        .b-main-addCars-price>div>input[class='wide']{
+            width: 335px;
+            height: 44px;
+        }
+.b-main-addCars-insurance-headline{
+    margin: 40px auto 0 auto;
+    width: 335px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 147.3%;
+    color: #1B1B1B;
+}
+    .b-main-addCars-insurance{
+        width: 335px;
+        padding-bottom: 110px;
+        margin: 0 auto 0 auto;
+    }
+        .b-main-addCars-insurance>div{
+            width: 335px;
+            margin: 26px auto 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .b-main-addCars-insurance>div:first-child{
+            margin: 30px auto 0 auto;
+        }
+            .b-main-addCars-insurance>div>p{
+                margin: auto 0 12px 0;
+                width: 335px;
+                height: 16px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+                text-align: left;
+            }
+            .b-main-addCars-insurance>div>input{
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 6px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1B1B1B;
+            }
+            .b-main-addCars-insurance>div>input[class='thin']{
+                width: 335px;
+                height: 44px;
+            }
+            .b-main-addCars-insurance>div>input[class='wide']{
+                width: 335px;
+                height: 44px;
+            }
+.b-main-addCars-submit{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 375px;
+    height: 84px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 0px #DEE2E4;
+}
+    .b-main-addCars-submit>button{
+        display: block;
+        margin: 16px auto auto auto;
+        padding: 16px 76px;
+        width: 335px;
+        height: 51px;
+        background: #61A199;
+        border-radius: 6px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .b-main-addCars-options-headline{
+        margin: 40px auto 0 auto;
+        width: 335px;
+        height: 29px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 147.3%;
+        color: #1B1B1B;
+    }
+    .b-main-addCars-options{
+        display: inline;
+        width: 335px;
+    }
+        .b-main-addCars-options>div{
+            display: block;
+            margin: 15px auto 0 auto;
+            width: 335px;
+            height: 44px;
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: row;
+        }
+        .b-main-addCars-options>div:first-child{
+            margin: 30px auto 0 auto;
+        }
+            .b-main-addCars-options>div>img{
+                margin: 10px auto 0 20px;
+                width: 24px;
+                height: 24px;
+            }
+            .b-main-addCars-options>div>p{
+                margin: 12px auto auto 10px;
+                width: 225px;
+                height: 21px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 147.3%;
+                color: #000000;
+            }
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 36px;
+                height: 20px;
+                margin: auto 20px auto auto;
+              }
+              
+              /* Hide default HTML checkbox */
+              .switch input {display:none;}
+              
+              /* The slider */
+              .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+              }
+              
+              .slider:before {
+                position: absolute;
+                content: "";
+                height: 16px;
+                width: 16px;
+                left: 2px;
+                bottom: 2px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+              }
+              
+              input:checked + .slider {
+                background-color: #61A199;
+              }
+              
+              input:focus + .slider {
+                box-shadow: 0 0 1px #61A199;
+              }
+              
+              input:checked + .slider:before {
+                -webkit-transform: translateX(16px);
+                -ms-transform: translateX(16px);
+                transform: translateX(16px);
+              }
+              
+              /* Rounded sliders */
+              .slider.round {
+                border-radius: 34px;
+              }
+              
+              .slider.round:before {
+                border-radius: 50%;
+              }
+    .b-main-addCars-services-headline{
+        margin: 40px auto 0 auto;
+        width: 335px;
+        height: 29px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 147.3%;
+        color: #1B1B1B;
+    }
+    .b-main-addCars-services{
+        width: 335px;
+        margin: auto;
+        padding-bottom: 150px;
+    }
+        .b-main-addCars-services>div{
+            margin-top: 15px;
+            width: 335px;
+            height: 163px;
+            background: #FFFFFF;
+            border: 1px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: row;
+        }
+        .b-main-addCars-services>div>.switch{
+            margin: 21px 20px auto auto !important;
+        }
+        .b-main-addCars-services>div:first-child{
+            margin-top: 30px;
+        }
+            .b-main-addCars-services-service-desc{
+                display: flex;
+                flex-direction: column;
+            }
+                .b-main-addCars-services-service-desc>.headline{
+                    width: 259px;
+                    margin: 20px auto 0 20px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 147.3%;
+                    color: #000000;
+                }
+                .b-main-addCars-services-service-desc>.desc{
+                    width: 259px;
+                    margin: 3px auto 0 21px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 147.3%;
+                    color: #828282;
+                }
+            .b-main-addCars-services-service-price{
+                display: flex;
+                margin: 15px auto 0 21px;
+                width: 72px;
+                height: 44px;
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 6px;
+            }
+                .b-main-addCars-services-service-price>p{
+                    margin: auto;
+                    width: 48px;
+                    height: 16px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #BDBDBD;
+                }
+}
